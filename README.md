@@ -9,4 +9,4 @@ Really. I don't know if I like that my HTML is in the JS. Doesn't google want it
 
 What? What does that mean? 
 
-This project was created via this tutorial https://www.codementor.io/reactjs/tutorial/beginner-guide-setup-reactjs-environment-npm-babel-6-webpack - but I think it's dated (even at like 3 months. ungh.)
+This project was created via this tutorial https://www.codementor.io/reactjs/tutorial/beginner-guide-setup-reactjs-environment-npm-babel-6-webpack - but I think it's dated 

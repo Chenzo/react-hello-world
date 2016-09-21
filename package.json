@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "My First ReactJS attempt",
   "main": "index.js",
-  
+
   "scripts": {
       "dev": "webpack -d --watch",
-      "build" : "webpack -p"
+      "build" : "NODE_ENV=production webpack -p --colors"
     },
 
   "author": "Chenzo",
