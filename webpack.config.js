@@ -4,6 +4,12 @@ var path = require('path');
 var BUILD_DIR = path.resolve(__dirname, 'src/client/public');
 var APP_DIR = path.resolve(__dirname, 'src/client/app');
 
+new webpack.DefinePlugin({
+  "process.env": { 
+     NODE_ENV: JSON.stringify("production") 
+   }
+})
+
 var config = {
   entry: APP_DIR + '/index.jsx',
   output: {
@@ -20,5 +26,7 @@ var config = {
     ]
   }
 };
+
+
 
 module.exports = config;
