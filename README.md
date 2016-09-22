@@ -2,6 +2,12 @@
 
 *I'm not entirely sure I like reactjs*
 
+Notes and Updates here:
+
+https://github.com/Chenzo/react-hello-world/wiki/Learning-ReactJS-by-jumping-into-the-deep-end...
+
+
+
 
 Really. I don't know if I like that my HTML is in the JS. Doesn't google want it's content on the page BEFORE JS runs? Also, I'm getting weird compilation errors. 
 
