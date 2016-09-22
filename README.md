@@ -29,3 +29,18 @@ var config = {
   ...
 };
 ```
+and then in my packages.json my buid script needed the NODE_ENV variable so now it packs up without errors:
+
+```json
+...
+  "scripts": {
+      "dev": "webpack -d --watch",
+      "build" : "NODE_ENV=production webpack -p --colors"
+    },
+...
+```
+
+next is to make it work with a simple node server locally. I was also pointed to this webpage with a crapton of information on it:
+http://developer.telerik.com/featured/5-steps-for-learning-react-application-development/?utm_source=javascriptweekly&utm_medium=email
+
+
